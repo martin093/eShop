@@ -1,0 +1,104 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #292c2f;
+  justify-content: space-between;
+  margin-top: 80px;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.footer .leftFooter {
+  margin-left: 50px;
+}
+
+.logo {
+  margin-left: 30px;
+  width: 6rem;
+  height: 6rem;
+}
+
+.footer .companyNameFooter {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 20px 0 0;
+}
+
+.footer .centerFooter .icon {
+  color: #ffffff;
+  width: 28px;
+  height: 28px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer .centerFooter p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .centerFooter p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer .rightFooter {
+  width: 20%;
+}
+
+.footer .aboutFooter {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .aboutFooter span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .iconsFooter {
+  margin-top: 25px;
+}
+
+.footer .iconsFooter a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+@media (max-width: 768px) {
+  .footer .centerFooter {
+    margin: 50px 0 50px;
+  }
+  .footer .rightFooter {
+    width: 100%;
+  }
+}

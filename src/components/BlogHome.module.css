@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.cardDeck {
+  flex-basis: 80%;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+}
+
+.readMore {
+  width: 100%;
+}

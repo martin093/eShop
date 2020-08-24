@@ -1,0 +1,34 @@
+.title {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.input {
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  outline: 0px !important;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.linkSignIp {
+  margin-left: 4px;
+}
+
+.registerButton {
+  width: 85%;
+}
