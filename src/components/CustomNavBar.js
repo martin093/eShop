@@ -53,13 +53,13 @@ class CustomNavBar extends Component {
           variant="dark"
           expand="lg"
         >
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="home">
             <img alt="" src={logo} className={styles.logo} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="custom-navbar-nav" />
           <Navbar.Collapse id="custom-navbar-nav">
             <Nav className={styles.navCenter}>
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="home">Home</Nav.Link>
               <Nav.Link href="#shop">Shop</Nav.Link>
               <Nav.Link href="#blog">Blog</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
